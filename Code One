@@ -1,0 +1,352 @@
+campaignTrail_temp.election_json = [
+	{
+    	"model": "campaign_trail.election",
+    	"pk": 9,
+    	"fields": {
+        	"year": 2000,
+        	"summary": "78 Days, That’s how long the 2015 Campaign will be the longest since 1926. The Conservatives under Prime Minister Stephen Harper face a lagging economy, low approvals and multiple scandals but a large warchest. The Liberals under Papineau MP and Son of Former Prime Minister Pierre Trudeau, Justin Trudeau are facing an uphill battle. With only 36 MP’s and polling in third Trudeau will need an almost flawless campaign to even have a shot of winning. And then there is Thomas Mulcair. Elected NDP leader in 2012 after longtime leader Jack Layton's passing Mulcair leads an NDP mostly made up of Quebecers. After the Alberta NDP’s victory in the Spring election the Federal party jumped into a slight lead over conservatives by the early summer. Will Harper win a fourth mandate or Can Mulcair form the first NDP government, and can the darkhorse Liberals make the ultimate comeback. \n",
+        	"image_url": "https://i.cbc.ca/1.3177571.1444255803!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/federal-leaders.jpg",
+        	"winning_electoral_vote_number": 270,
+        	"advisor_url": "https://www.jetsimon.com/public/static/images/rove-brazile.jpg",
+        	"recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+        	"has_visits": 1,
+        	"no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+        	"creator": "Dan Bryan",
+        	"display_year": "2015"
+    	}
+	}
+]
+
+campaignTrail_temp.candidate_json = [
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 77,
+    	"fields": {
+        	"first_name": "Tom",
+        	"last_name": "Mulcair",
+        	"election": 9,
+        	"party": "New Democratic Party",
+        	"state": "Outremont, Quebec",
+        	"priority": 1,
+        	"description": "Thomas Mulcair is currently serving as the Leader of the Opposition and Leader of the New Democrats. Before winning the 2007 Outremont by-election Muclair served as a Quebec Liberal cabinet minister in the government of Jean Charest. Mulcair won the NDP leadership in 2012 after the Passing of Jack Layton defeating NDP president Brian Topp on the fourth ballot. Under his leadership Mulcair has continued pushing the party to the center like his predecessor. Even though Mulcair’s NDP has polled in the low 20s through the past few years, recent success for the Alberta NDP and good media attention has seen the party climb to first place in the polling. Will Mulcair be able to lead his party into government or will the long campaign be too much for the NDP?   \n",
+        	"color_hex": "#ff8000",
+        	"secondary_color_hex": "#FFA0A0",
+        	"is_active": 1,
+        	"image_url": "https://d3d0lqu00lnqvz.cloudfront.net/media/media/04a2ed5c-5f2f-40dc-aa48-15a93f9d7b2a.jpg",
+        	"electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Confounding the predictions of many experts, you were able to turn the tables on Al Gore, in spite of the economy and Clinton's popularity.</p><p>On the political front, you can push for tax cuts to spur the economy and return the budget surplus to the American people. You might also pursue education and immigration reform, individual Social Security accounts, and new laws to defend the family and the sanctity of life.</p>",
+        	"electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Perhaps it was always a long-shot, with the Democrats in such a commanding position after eight years of Bill Clinton. In any case, at least you are still the Governor of Texas.</p><p>Expect Al Gore to unleash a new round of government programs and environmental regulations. You are still youngish, however. If the election was close this time, perhaps you can run again in 2004, or work on behalf your brother Jeb.</p>",
+        	"no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes accordingly.</p><p>Given the incredibly close nature of the election, you will surely be expected to govern as a moderate, conciliatory President. Right??</p>",
+        	"description_as_running_mate": "''",
+        	"candidate_score": 1,
+        	"running_mate": false
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 62,
+    	"fields": {
+        	"first_name": "New Democratic Party",
+        	"last_name": " ",
+        	"election": 9,
+        	"party": "1961",
+        	"state": "Rebecca Blaikie",
+        	"priority": 2,
+        	"description": "<p>Al Gore enters the 2000 election as the Democratic candidate after eight years as Vice President under Bill Clinton.</p><p>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision. Gore is essentially campaigning on two fronts.</p>",
+        	"color_hex": "#ff8040",
+        	"secondary_color_hex": "#90C0FF",
+        	"is_active": 0,
+        	"image_url": "data:image/png;base64,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",
+        	"electoral_victory_message": " ",
+        	"electoral_loss_message": " ",
+        	"no_electoral_majority_message": " ",
+        	"description_as_running_mate": "The New Democratic party, being birthed in 1961 from Co-operative Commonwealth Federation and  Canadian Labour Congress, has always struggled to be a major competitor in Canadian politics. The Party experienced moderate electoral success through the 60s and 70s and was able to come within 10 seats of forming the opposition in 1984. After their best results yet in 1988 the party won only a handful of seats through the 90s. After Jack Layton became leader in 2003 the Party experienced gain in the 2004, 06 and 08 elections. Then in 2011 the NDP won 103 seats becoming the official opposition by a massive breakthrough in Quebec almost completely wiping out the Bloc Quebecois. The NDP enters the 2015 election with the best chance yet to finally form Government.  \n",
+        	"candidate_score": 1,
+        	"running_mate": true
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 78,
+    	"fields": {
+        	"first_name": "Stephen",
+        	"last_name": "Harper",
+        	"election": 9,
+        	"party": "Conservative Party of Canada",
+        	"state": "Alberta",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#7979ff",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": false
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 14,
+    	"fields": {
+        	"first_name": "Conservative Party of Canada",
+        	"last_name": " ",
+        	"election": 9,
+        	"party": " ",
+        	"state": " ",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#9ba4f0",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": true
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 79,
+    	"fields": {
+        	"first_name": "Justin",
+        	"last_name": "Trudeau",
+        	"election": 9,
+        	"party": "Liberal Party of Canada",
+        	"state": "Quebec",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#df575a",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": false
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 68,
+    	"fields": {
+        	"first_name": "Liberal Party of Canada",
+        	"last_name": " ",
+        	"election": 9,
+        	"party": " ",
+        	"state": " ",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#ef6b6f",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": true
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 80,
+    	"fields": {
+        	"first_name": "Elizebeth May",
+        	"last_name": " ",
+        	"election": 9,
+        	"party": "Green Party of Canada",
+        	"state": "BC",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#4ed32c",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": false
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 12,
+    	"fields": {
+        	"first_name": "Green Party of Canada",
+        	"last_name": " ",
+        	"election": 9,
+        	"party": " ",
+        	"state": " ",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#5fd12e",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": true
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 12240,
+    	"fields": {
+        	"first_name": "Gilles",
+        	"last_name": "Duceppe",
+        	"election": 9,
+        	"party": "Bloc Québécois",
+        	"state": "Quebec",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#2cd3cf",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": false
+    	}
+	},
+	{
+    	"model": "campaign_trail.candidate",
+    	"pk": 94,
+    	"fields": {
+        	"first_name": "Bloc Québécois",
+        	"last_name": " ",
+        	"election": 9,
+        	"party": " ",
+        	"state": " ",
+        	"priority": 1,
+        	"description": "<p>Put description here</p>",
+        	"color_hex": "#30cfcb",
+        	"secondary_color_hex": null,
+        	"is_active": 0,
+        	"image_url": "https://www.jetsimon.com/public/candidateexample.png",
+        	"electoral_victory_message": "This guy wins!",
+        	"electoral_loss_message": "This guy loses!",
+        	"no_electoral_majority_message": "We all win?",
+        	"description_as_running_mate": null,
+        	"candidate_score": 1,
+        	"running_mate": true
+    	}
+	}
+]
+
+campaignTrail_temp.running_mate_json = []
+
+campaignTrail_temp.credits = "Al Gore"
+
+campaignTrail_temp.global_parameter_json = [
+	{
+    	"model": "campaign_trail.global_parameter",
+    	"pk": 1,
+    	"fields": {
+        	"vote_variable": 1.125,
+        	"max_swing": 0.12,
+        	"start_point": 0.94,
+        	"candidate_issue_weight": 10,
+        	"running_mate_issue_weight": 3,
+        	"issue_stance_1_max": -0.71,
+        	"issue_stance_2_max": -0.3,
+        	"issue_stance_3_max": -0.125,
+        	"issue_stance_4_max": 0.125,
+        	"issue_stance_5_max": 0.3,
+        	"issue_stance_6_max": 0.71,
+        	"global_variance": 0.01,
+        	"state_variance": 0.005,
+        	"question_count": 25,
+        	"default_map_color_hex": "#C9C9C9",
+        	"no_state_map_color_hex": "#999999"
+    	}
+	}
+]
+
+campaignTrail_temp.opponents_default_json = [
+	{
+    	"election": 9,
+    	"candidates": [
+        	77,
+        	78,
+        	79,
+        	80,
+        	12240
+    	]
+	}
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+	{
+    	"election": 9,
+    	"candidates": [
+        	77,
+        	78,
+        	79,
+        	80,
+        	12240
+    	]
+	}
+]
+
+campaignTrail_temp.temp_election_list = [
+	{
+    	"id": 9,
+    	"year": 2000,
+    	"is_premium": 0,
+    	"display_year": "2015"
+	}
+]
+
+jet_data = {
+	"headerColor": "#ff8040",
+	"windowColor": "#89a0ef",
+	"containerColor": "#ea5b5b",
+	"innerWindowColor": "#8f97ef",
+	"bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+	"backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+	"endingTextColor": "#000000",
+	"customQuote": "\"Donald Trump is a fascist\"- Tom Mulcair"
+}
+
+//#startcode
+
+
+corrr = '\n          	<h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"Donald Trump is a fascist"- Tom Mulcair</em></font>\n        	';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ff8040";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#89a0ef";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ea5b5b";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#8f97ef!important;}</style>";
+
+//#endcode
+
+
